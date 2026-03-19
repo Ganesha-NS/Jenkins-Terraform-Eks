@@ -80,7 +80,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = credentials('AWS_Access_Key')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_Secret_Key')
-        AWS_DEFAULT_REGION = 'ap-south-1'
+        AWS_DEFAULT_REGION = 'us-east-1'
     }
     stages{
         stage('Clone the Code'){
