@@ -11,7 +11,7 @@ terraform {
 
 locals {
   region = "ap-south-1"
-  name   = "kastro-eks-cluster"
+  name   = "eks-cluster"
   vpc_cidr = "10.123.0.0/16"
 
   azs      = ["ap-south-1a", "ap-south-1b"]
